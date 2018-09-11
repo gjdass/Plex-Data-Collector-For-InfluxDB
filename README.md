@@ -26,7 +26,7 @@ Enter your desired information in config.ini and run plexcollector.py
 |Database       |Database to write collected stats to                                                                                |
 |Username       |User that has access to the database                                                                                |
 |Password       |Password for above user                                                                                             |
-|Verify_SSL     |Disable SSL verification for InfluxDB Connection                                                                                             |
+|Verify_SSL     |Disable SSL verification for InfluxDB Connection                                                                    |
 #### PLEX
 |Key            |Description                                                                                                         |
 |:--------------|:-------------------------------------------------------------------------------------------------------------------|
@@ -34,7 +34,13 @@ Enter your desired information in config.ini and run plexcollector.py
 |Password       |Plex Password                                                                                                       |
 |Servers        |A comma separated list of servers you wish to pull data from.                                                       |
 |HTTPS          |Connect to server using HTTPS                                                                                       |
-|Verify_SSL        |Disable SSL verification (Use this if you have a self sign SSL)                                                     |
+|Verify_SSL     |Disable SSL verification (Use this if you have a self sign SSL)                                                     |
+#### PLEX_NAMES
+|Key            |Description                                                                                                         |
+|:--------------|:-------------------------------------------------------------------------------------------------------------------|
+|Movies         |Plex Movies library name                                                                                            |
+|TV             |Plex TV Shows library name                                                                                          |
+|Music          |Plex Music library name                                                                                             |
 #### LOGGING
 |Key            |Description                                                                                                         |
 |:--------------|:-------------------------------------------------------------------------------------------------------------------|
