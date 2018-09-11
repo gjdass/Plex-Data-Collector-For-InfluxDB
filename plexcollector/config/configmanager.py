@@ -46,6 +46,11 @@ class ConfigManager:
         self.plex_verify_ssl = self.config['PLEX'].getboolean('Verify_SSL', fallback=False)
         servers = len(self.config['PLEX']['Servers'])
 
+        # Plex Names
+        self.plex_movies_name = self.config['PLEX_NAMES']['Movies']
+        self.plex_tv_name = self.config['PLEX_NAMES']['TV']
+        self.plex_music_name = self.config['PLEX_NAMES']['Music']
+
         #Logging
         self.logging_level = self.config['LOGGING']['Level'].upper()
 
